@@ -10,8 +10,8 @@ import { messageTypes } from 'vault/helpers/message-types';
  *
  * <AlertBanner @type="danger" @message="{{model.keyId}} is not a valid lease ID"/>
  *
- * @property [AlertBanner.type=null]{String} - The banner type. Should either be `info`, `warning`, `success`, or `danger`.
- * @property [AlertBanner.message=null]{String} - The message to display within the banner.
+ * @property type=null {String} - The banner type. Should either be `info`, `warning`, `success`, or `danger`.
+ * @property message=null {String} - The message to display within the banner.
  */
 export default Component.extend({
   type: null,

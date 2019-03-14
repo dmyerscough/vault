@@ -7,9 +7,6 @@ module.exports = {
 
   fileMapTokens: function() {
     return {
-      __markdownname__: function(options) {
-        return options.dasherizedModuleName;
-      },
       __name__: function(options) {
         return options.dasherizedModuleName;
       },

@@ -1,6 +1,7 @@
 /* eslint-disable import/extensions */
 import hbs from 'htmlbars-inline-precompile';
 import { storiesOf } from '@storybook/ember';
+//import notes from './<%= dasherizedModuleName %>.md';
 
 storiesOf('<%= classifiedModuleName %>/', module)
   .addParameters({ options: { showPanel: true } })
@@ -10,4 +11,6 @@ storiesOf('<%= classifiedModuleName %>/', module)
         <<%= classifiedModuleName %>/>
     `,
     context: {},
-  }));
+  }),
+  //{ notes }
+);
